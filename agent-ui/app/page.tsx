@@ -76,9 +76,9 @@ export default function Home() {
                   Welcome to the demo of Customer Support AI Agent
                 </div>
                 <div className="text-sm text-start text-black">
-                  Below you will find an example of an order a customer might
-                  have placed and we will take a look at how the AI Agent can
-                  help you with the customer's query.
+                  {
+                    "Below you will find an example of an order a customer might have placed and we will take a look at how the AI Agent can help you with the customer's query."
+                  }
                 </div>
               </div>
 
@@ -155,8 +155,9 @@ export default function Home() {
             AI Agent Action
           </p>
           <p className="text-xs w-8/12 text-start text-black">
-            Below are the examples of past customer support queries raised and
-            how the AI Agent responded to them.
+            {
+              " Below are the examples of past customer support queries raised and how the AI Agent responded to them."
+            }
           </p>
 
           <div className="flex flex-col items-start justify-start w-full mt-4">
