@@ -105,7 +105,7 @@ const getTotalRuns = async () => {
     const data = await ddbDocClient.send(new ScanCommand(params));
     return data.Items.length;
   } catch (error) {
-    res.status(400).json({ message: error.message });
+    console.log(error);
   }
 };
 
