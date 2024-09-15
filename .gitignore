@@ -1,0 +1,14 @@
+# Node.js
+/node_modules
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv
+
+# Next.js
+.next/
+out/
