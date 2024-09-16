@@ -33,7 +33,7 @@ const getAllRuns = async (req, res) => {
 const createRun = async (req, res) => {
   let data = {
     issue: req.body.issue,
-    description: req.body.description,
+    description: req.body.issue_description,
   };
 
   const totalRums = await getTotalRuns();
@@ -59,7 +59,7 @@ const createRun = async (req, res) => {
     customer_name: req.body.customer_name,
     customer_email: req.body.customer_email,
     issue: req.body.issue,
-    issue_description: req.body.description,
+    issue_description: req.body.issue_description,
     resolution: system.resolution,
     resolution_description: system.resolution_description,
     confidence_score: system.confidence_score,

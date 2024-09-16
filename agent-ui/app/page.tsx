@@ -54,7 +54,8 @@ export default function Home() {
 
         <div className=" flex flex-row justify-end gap-x-2 lg:gap-x-8">
           <a
-            href=""
+            href="https://github.com/anirudhj2000/customer-support-ai-agent"
+            target="_blank"
             className="text-black text-sm p-1 lg:p-2 rounded-md bg-gray-200"
           >
             Github
